@@ -11,21 +11,12 @@
     <div id="mainContainer">
       <div id="textContainer">
         <h1>Amazon Transcribe</h1>
-        <p>Here are three different ways to implement it:</p>
         <ol>
           <li>Purely front-end implementation using the JS library</li>
-          <li>Full-stack implementation using AWS sockets</li>
-          <li>Full-stack implementation using the JS library</li>
         </ol>
         <p>
-          The backend code is not in this repo. Please refer to
-          <a href="https://medium.com/@jannden/a56c14b87db2">my article</a>.
-        </p>
-        <p>
           In order to run this demo, you have to update either your AWS access
-          keys (for the first options), or the backend API to get the AWS socket
-          url (for the second option), or the backend socket url (for the third
-          option).
+          keys (for the first options)
         </p>
       </div>
       <div id="recordButtonContainer">
@@ -35,20 +26,6 @@
           onclick="onRecordFrontendPress()"
         >
           pure front-end
-        </button>
-        <button
-          id="recordSocket"
-          class="recordInactive"
-          onclick="onRecordSocketPress()"
-        >
-          through aws socket
-        </button>
-        <button
-          id="recordApi"
-          class="recordInactive"
-          onclick="onRecordApiPress()"
-        >
-          through backend api
         </button>
       </div>
 
