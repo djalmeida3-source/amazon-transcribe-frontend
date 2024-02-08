@@ -6,7 +6,9 @@ import MicrophoneStream from "microphone-stream";
 import { Buffer } from "buffer";
 
 // UPDATE THIS ACCORDING TO YOUR AWS CREDENTIALS:
-import { AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY } from "../aws";
+const AWS_REGION = "us-east-1";
+const AWS_ACCESS_KEY_ID = "AKIAWUHJQJMS64J7R5XG";
+const AWS_SECRET_ACCESS_KEY = "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";
 
 let microphoneStream = undefined;
 const language = "en-US";
