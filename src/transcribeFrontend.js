@@ -5,16 +5,12 @@ import {
 import MicrophoneStream from "microphone-stream";
 import { Buffer } from "buffer";
 
-// require('dotenv').config();
+require('dotenv').config();
 
-// UPDATE THIS ACCORDING TO YOUR AWS CREDENTIALS:
-// const AWS_REGION = process.env.AWS_REGION;
-// const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
-// const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
+const AWS_REGION = process.env.AWS_REGION;
+const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
+const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 
-const AWS_REGION = "us-east-1";
-const AWS_ACCESS_KEY_ID = "AKIAWUHJQJMSZU6SUTEX";
-const AWS_SECRET_ACCESS_KEY = "kgYbNjwydbA8yDymc4kItprWJH9APqVvsJS30Hgw";
 let microphoneStream = undefined;
 const language = "en-US"; // en-US or es-US
 const SAMPLE_RATE = 44100;
