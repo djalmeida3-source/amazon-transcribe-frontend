@@ -7,7 +7,7 @@ var config = {
     devtool: 'eval-source-map',
     target: 'web',
     output: {
-        path : path.resolve(__dirname, 'src'),
+        path : path.resolve(__dirname, 'dist'),
         filename: 'main.js'
     },
     plugins: [
